@@ -41,7 +41,6 @@ class Solution:
         while k:
             k-=1
             res += sums.pop()
-
         return res
 
 
