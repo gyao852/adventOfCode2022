@@ -1,7 +1,5 @@
-from utility import parseInput, parseInputDay5
-import itertools
+from utility import parseInputDay5
 from typing import List
-
 
 class Solution:
 
