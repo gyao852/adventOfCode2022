@@ -3,12 +3,6 @@ from typing import List
 from utility import parseInput
 
 
-class Operation:
-    def __init__(self, variable: str, strength: str):
-        self.variable: str = variable
-        self.strength: int = int(strength)
-
-
 class Solution:
     MIN_PIXEL_LENGTH = 0
     MAX_PIXEL_LENGTH = 40
